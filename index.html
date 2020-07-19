@@ -91,7 +91,7 @@
                     data-toggle="tooltip" data-html="true" 
                     title="Or Call us at <br><strong>+91-9876543210</strong>" 
                     data-placement="bottom"
-                    href="#reserveform">
+                    href="#reserveForm">
                         Reserve Table
                     </a>
                 </div>
@@ -182,6 +182,63 @@
                 </div>
             </div>
         </div> -->
+    </div>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="card col-sm-8 offset-sm-2 align-self-center">
+                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                <div class="card-body">
+                    <form action="" id="reserveForm">
+                        <div class="form-group row">
+                            <label for="numGuests" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="custom-control custom-radio custom-control-inline ml-2">
+                                <input type="radio" class="custom-control-input" id="res1" name="numGuests">
+                                <label class="custom-control-label" for="res1">1</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="res2" name="numGuests">
+                                <label class="custom-control-label" for="res2">2</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="res3" name="numGuests">
+                                <label class="custom-control-label" for="res3">3</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="res4" name="numGuests">
+                                <label class="custom-control-label" for="res4">4</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="res5" name="numGuests">
+                                <label class="custom-control-label" for="res5">5</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" id="res6" name="numGuests">
+                                <label class="custom-control-label" for="res6">6</label>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="dateTime" class="col-md-2 col-form-label">Date and Time</label>
+                            <div class="form-group row ml-2" id="dateTime">
+                                <div>
+                                    <input type="text" class="form-control" name="date" id="date" placeholder="Date">
+                                </div>
+                                <div class="ml-4">
+                                    <input type="text" class="form-control" name="time" id="time" placeholder="Time">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class="btn btn-primary">
+                                    Reserve
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer class="footer">
